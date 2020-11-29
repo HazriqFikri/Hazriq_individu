@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1571757767119-68b8dbed8c97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+	background-size: cover;
+	background-position: center;
+}
+
+.box
+{
+	width: 450px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Century Gothic' ,sans-serif;
+}
+
+.box img
+{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+
+}
+
+.box h1
+{
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+
+.box h5
+{
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+
+.box p
+{
+	text-align: justify;
+}
+
+ul 
+{
+	margin: 0;
+	padding: 0;
+}
+
+.box li
+{
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+}
+
+.box li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 60px;
+	transition: all ease-in-out 250ms;
+}
+
+.box li a:hover
+{
+	color: #16cadc;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: Black;
+  color: white;
+  
+}
+
+#more {display: none;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}

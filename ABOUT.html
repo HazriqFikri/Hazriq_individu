@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="http://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="style2.css">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>About</title>
+
+</head>
+
+<body>
+
+<header>
+
+        <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a class="active" href="ABOUT.html">About</a></li>
+        <li><a class="active" href="GALLERY.html">Gallery</a></li>
+        </ul>
+
+
+</header>
+
+		     <div class="box">
+
+		             <img src="https://scontent.fkul16-1.fna.fbcdn.net/v/t1.0-9/101517069_135177461488385_7272453294440466184_o.jpg?_nc_cat=106&ccb=2&_nc_sid=09cbfe&_nc_ohc=9iCbLUzC7rQAX8ICkrC&_nc_ht=scontent.fkul16-1.fna&oh=6306affd616898dfcfaba99bbcbfce3e&oe=5FE38229" alt="" class="box-img">
+		             <h1>Hazriq fikri</h1>
+		             <h5>A little bit about me</h5>
+		             <p>My name is Muhammad Hazriq Fikri Bin Razak and I'm 20 years old.<span id="dots">...</span><span id="more"> I'm from Kota Tinggi Johor but recently I lived at Johor Bahru because I do some part time job. I'm UiTM Rembau students and study in Diploma in Information Management. My hobby is playing badminton and my favourite food is chicken chop</p>
+
+         </span></p>
+
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+</script>
+
+	    </div>
+	
+<footer>
+
+             <p>Author: Hazriq Fikri<br>
+             <a href="hazriq000506@gmail.com">hazriq000506@gmail.com</a></p>
+             
+</footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</html>
